@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+html,
+body {
+  font-family: 'Orbitron', sans-serif !important;
+  background-color: rgba(240, 248, 255, 0) !important;
+}
+h3 {
+  font-size: 3rem !important;
+}
+.container {
+  width: 160px !important;
+}
+.form-group {
+  display: flex;
+}
+#countdown {
+  font-size: 12rem;
+}

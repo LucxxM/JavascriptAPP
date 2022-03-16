@@ -19,10 +19,12 @@
 
 
 const ulToToggleShow = document.getElementById('ul-ToggleShow');
+const ulAppToToggleShow = document.getElementById('ul-ToggleShow__app');
 const h1 = document.getElementById('h1Gang');
 
 h1.addEventListener('click', () => {
     ulToToggleShow.classList.toggle('display-none');
+    ulAppToToggleShow.classList.toggle('display-none');
 });
 
 
